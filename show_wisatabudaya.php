@@ -2,7 +2,7 @@
 
 include 'koneksi.php';
 $res = array();
-$db = mysqli_query($db,"SELECT * FROM berita ORDER BY id_berita DESC ");
+$db = mysqli_query($db,"SELECT * FROM wisata WHERE ket = 'BUDAYA' ORDER BY id_wisata DESC LIMIT 4 ");
 while ($row = mysqli_fetch_assoc($db)) {
 	$res[] = $row;
 }
