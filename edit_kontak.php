@@ -16,4 +16,4 @@ $query = mysqli_query($db,"UPDATE kontak SET map_kontak = '$map',ig = '$ig', fb=
 	}
 
 
-?>
+?> 

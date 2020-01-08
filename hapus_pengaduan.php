@@ -2,7 +2,7 @@
 include "koneksi.php";
 
 //if ($_SERVER['REQUEST_METHOD'] == "POST") {
-	$nim = $_POST['id'];
+	$nim = $_GET['id'];
 
 	$query = mysqli_query($db,"DELETE FROM pengaduan WHERE id_pengaduan = '$nim' ");
 
